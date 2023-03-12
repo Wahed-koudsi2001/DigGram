@@ -175,6 +175,24 @@ nav button:hover {
     color: #fff;
 }
 
+.flag {
+    width: 40px;
+    object-fit: cover;
+    transition: .1s linear;
+    -webkit-transition: .1s linear;
+    -moz-transition: .1s linear;
+    -ms-transition: .1s linear;
+    -o-transition: .1s linear;
+}
+
+.flag:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
 /* End Navbar */
 
 /* Start Intro */
@@ -734,7 +752,6 @@ nav button:hover {
     -o-border-radius: 50%;
     margin-right: 10px;
 }
-
 
 .last-news .container .box h5 {
     margin: 0 0 10px 0;

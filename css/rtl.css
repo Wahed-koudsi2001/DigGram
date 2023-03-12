@@ -1,0 +1,23 @@
+body {
+    direction: rtl;
+}
+
+.team>div div:last-child h3::before {
+    right: 0;
+}
+
+.review>div .box img {
+    margin-left: 20px;
+}
+
+.team-2>div div:first-child {
+    text-align: left;
+}
+
+.last-news .container .box img {
+    margin-left: 10px;
+}
+
+.form .left div i {
+    margin-left: 10px;
+}
