@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="css/custom.css">
     <!-- RTL -->
     <link rel="stylesheet" href="css/rtl.css">
+    <!-- WOW Animation -->
+    <link rel="stylesheet" href="css/animate.css">
 
     <title>أخبار</title>
 </head>
@@ -64,13 +66,13 @@
     <!-- End Intro -->
 
     <!-- Start Last News -->
-    <section class="last-news mt-120">
+    <section class="last-news mt-120 overflowHidden">
         <div class="before-center">
-            <span>مدونتنا</span>
-            <h2>اقرأ آخر <span class="main-txt">أخبارنا</span></h2>
+            <span class="wow fadeIn" data-wow-offset="150">مدونتنا</span>
+            <h2 class="wow flipInX">اقرأ آخر <span class="main-txt">أخبارنا</span></h2>
         </div>
         <div class="container d-flex justify-content-space-between flex-wrap">
-            <div class="box d-flex flex-column justify-content-space-between">
+            <div class="box d-flex flex-column justify-content-space-between wow slideInLeft" data-wow-offset="150">
                 <div class="d-flex align-items-center">
                     <div>
                         <img src="img/person/person_1.jpg" alt="img">
@@ -88,7 +90,7 @@
                     <button>اقرأ أكثر <i class="fa fa-chevron-left"></i></button>
                 </div>
             </div>
-            <div class="box d-flex flex-column justify-content-space-between">
+            <div class="box d-flex flex-column justify-content-space-between wow slideInLeft" data-wow-offset="150">
                 <div class="d-flex align-items-center">
                     <div>
                         <img src="img/person/person_2.jpg" alt="img">
@@ -106,7 +108,7 @@
                     <button>اقرأ أكثر <i class="fa fa-chevron-left"></i></button>
                 </div>
             </div>
-            <div class="box d-flex flex-column justify-content-space-between">
+            <div class="box d-flex flex-column justify-content-space-between wow slideInLeft" data-wow-offset="150">
                 <div class="d-flex align-items-center">
                     <div>
                         <img src="img/person/person_2.jpg" alt="img">
@@ -124,7 +126,7 @@
                     <button>اقرأ أكثر <i class="fa fa-chevron-left"></i></button>
                 </div>
             </div>
-            <div class="box d-flex flex-column justify-content-space-between">
+            <div class="box d-flex flex-column justify-content-space-between wow slideInLeft" data-wow-offset="160">
                 <div class="d-flex align-items-center">
                     <div>
                         <img src="img/person/person_3.jpg" alt="img">
@@ -142,7 +144,7 @@
                     <button>اقرأ أكثر <i class="fa fa-chevron-left"></i></button>
                 </div>
             </div>
-            <div class="box d-flex flex-column justify-content-space-between">
+            <div class="box d-flex flex-column justify-content-space-between wow slideInLeft" data-wow-offset="160">
                 <div class="d-flex align-items-center">
                     <div>
                         <img src="img/person/person_3.jpg" alt="img">
@@ -160,7 +162,7 @@
                     <button>اقرأ أكثر <i class="fa fa-chevron-left"></i></button>
                 </div>
             </div>
-            <div class="box d-flex flex-column justify-content-space-between">
+            <div class="box d-flex flex-column justify-content-space-between wow slideInLeft" data-wow-offset="160">
                 <div class="d-flex align-items-center">
                     <div>
                         <img src="img/person/person_3.jpg" alt="img">
@@ -178,7 +180,7 @@
                     <button>اقرأ أكثر <i class="fa fa-chevron-left"></i></button>
                 </div>
             </div>
-            <div class="box d-flex flex-column justify-content-space-between">
+            <div class="box d-flex flex-column justify-content-space-between wow slideInLeft" data-wow-offset="170">
                 <div class="d-flex align-items-center">
                     <div>
                         <img src="img/person/person_3.jpg" alt="img">
@@ -196,7 +198,7 @@
                     <button>اقرأ أكثر <i class="fa fa-chevron-left"></i></button>
                 </div>
             </div>
-            <div class="box d-flex flex-column justify-content-space-between">
+            <div class="box d-flex flex-column justify-content-space-between wow slideInLeft" data-wow-offset="170">
                 <div class="d-flex align-items-center">
                     <div>
                         <img src="img/person/person_3.jpg" alt="img">
@@ -214,7 +216,7 @@
                     <button>اقرأ أكثر <i class="fa fa-chevron-left"></i></button>
                 </div>
             </div>
-            <div class="box d-flex flex-column justify-content-space-between">
+            <div class="box d-flex flex-column justify-content-space-between wow slideInLeft" data-wow-offset="170">
                 <div class="d-flex align-items-center">
                     <div>
                         <img src="img/person/person_3.jpg" alt="img">
@@ -299,6 +301,13 @@
         </div>
     </section>
     <!-- End End -->
+
+    <!-- WOW JS -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
 
 </body>
 

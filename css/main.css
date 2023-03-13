@@ -12,6 +12,7 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     list-style: none;
+
 }
 
 /* Start Global */
@@ -121,6 +122,10 @@ html {
 
 .txt-center {
     text-align: center;
+}
+
+.overflowHidden {
+    overflow: hidden;
 }
 
 /* End Global */

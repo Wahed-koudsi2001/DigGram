@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="css/main.css">
     <!-- Custom Style -->
     <link rel="stylesheet" href="css/custom.css">
+    <!-- WOW Animation -->
+    <link rel="stylesheet" href="css/animate.css">
 
     <title>About Us</title>
 </head>
@@ -62,9 +64,9 @@
     <!-- End Intro -->
 
     <!-- Start Form -->
-    <section class="form">
+    <section class="form overflowHidden">
         <div class="container d-flex flex-wrap">
-            <div class="left w-50">
+            <div class="left w-50 wow slideInLeft" data-wow-offset="150">
                 <h2 class="line">Get in Touch</h2>
                 <p class="gray-txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit inventore aperiam
                     dolor modi
@@ -85,7 +87,7 @@
                     </div>
                 </div>
             </div>
-            <div class="right d-flex flex-column w-50">
+            <div class="right d-flex flex-column w-50 wow slideInRight" data-wow-offset="150">
                 <span>contact us</span>
                 <h2 class="line">Drop Us a Line</h2>
                 <input type="text" placeholder="Full name">
@@ -96,7 +98,6 @@
         </div>
     </section>
     <!-- End Form -->
-
 
     <!-- Start Footer -->
     <section class="footer">
@@ -153,6 +154,12 @@
         </div>
     </section>
     <!-- End End -->
+
+    <!-- WOW JS -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
 </body>
 

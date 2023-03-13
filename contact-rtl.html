@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="css/custom.css">
     <!-- RTL -->
     <link rel="stylesheet" href="css/rtl.css">
+    <!-- WOW Animation -->
+    <link rel="stylesheet" href="css/animate.css">
     <title>تواصل معنا</title>
 </head>
 
@@ -63,9 +65,9 @@
     <!-- End Intro -->
 
     <!-- Start Form -->
-    <section class="form">
+    <section class="form overflowHidden">
         <div class="container d-flex flex-wrap">
-            <div class="left w-50">
+            <div class="left w-50 wow slideInRight" data-wow-offset="150">
                 <h2 class="line">ابقى على تواصل</h2>
                 <p class="gray-txt">عند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص
                     النهائية المطلوبة للتصميم ويقول
@@ -86,7 +88,7 @@
                     </div>
                 </div>
             </div>
-            <div class="right d-flex flex-column w-50">
+            <div class="right d-flex flex-column w-50 wow slideInLeft" data-wow-offset="150">
                 <span>اتصل بنا</span>
                 <h2 class="line">ترك لنا خطا</h2>
                 <input type="text" placeholder="الأسم الكامل">
@@ -156,6 +158,12 @@
     </section>
     <!-- End End -->
 
+
+    <!-- WOW JS -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>
