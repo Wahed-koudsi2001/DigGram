@@ -3,6 +3,10 @@
     --gray-txt: #908dab;
 }
 
+.no-bg {
+    background-color: transparent !important;
+}
+
 /* Start New Intro */
 .intro .content {
     display: flex;
@@ -75,6 +79,12 @@
     .last-news .container .box {
         width: calc(100% - 40px);
     }
+}
+
+nav h3 {
+    margin-left: 40px;
+    margin-right: 0;
+    width: 100%;
 }
 
 /* End New News */

@@ -1104,5 +1104,14 @@ nav button:hover {
     .img {
         width: 100%;
     }
+}
 
+@media (max-width: 500px) {
+    nav h3 {
+        margin-right: 50px;
+    }
+
+    nav ul {
+        flex-basis: initial;
+    }
 }
