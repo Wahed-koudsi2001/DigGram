@@ -29,6 +29,7 @@
 
 .intro .content span {
     margin: 0 10px;
+
 }
 
 /* End Intro */
@@ -85,6 +86,11 @@ nav h3 {
     margin-left: 40px;
     margin-right: 0;
     width: 100%;
+}
+
+.numbers .box:first-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 /* End New News */
