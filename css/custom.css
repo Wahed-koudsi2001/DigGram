@@ -23,6 +23,10 @@
     -o-border-radius: 10px;
 }
 
+.intro .left {
+    align-items: initial;
+}
+
 .intro .content h2 {
     margin: 10px 0 0 0;
 }
@@ -67,7 +71,7 @@
 }
 
 .last-news .container .box {
-    width: calc((100% / 3.5) - 40px);
+    width: calc((100% / 4) - 40px);
 }
 
 @media (max-width: 991px) {
@@ -82,17 +86,13 @@
     }
 }
 
-nav h3 {
-    margin-left: 40px;
-    margin-right: 0;
-    width: 100%;
-}
-
 .numbers .box:first-child {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
+
+
 
 /* End New News */

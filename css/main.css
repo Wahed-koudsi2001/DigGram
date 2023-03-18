@@ -143,7 +143,9 @@ nav {
 }
 
 nav h3 {
-    margin-right: 80px;
+    width: 100%;
+    margin-inline-end: 80px;
+
 }
 
 nav ul {
@@ -158,11 +160,15 @@ nav ul i {
 }
 
 nav ul li {
-    margin-right: 30px;
+    margin-inline-end: 30px;
 }
 
 nav ul li a:hover {
     color: var(--main-txt);
+}
+
+nav ul li a.main-txt {
+    font-weight: bold;
 }
 
 nav button {
@@ -234,7 +240,7 @@ nav button:hover {
     color: #fff;
     border: none;
     padding: 10px 20px;
-    margin-left: 10px;
+    margin-inline-end: 10px;
     transition: .1s linear;
     -webkit-transition: .1s linear;
     -moz-transition: .1s linear;
@@ -267,7 +273,7 @@ nav button:hover {
 }
 
 .review>div .box img {
-    margin-right: 20px;
+    margin-inline-end: 20px;
 }
 
 .review>div .box h4 {
@@ -377,7 +383,7 @@ nav button:hover {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    margin-right: 10px;
+    margin-inline-end: 10px;
     cursor: pointer;
 }
 
@@ -635,7 +641,7 @@ nav button:hover {
 }
 
 .form .left div i {
-    margin-right: 10px;
+    margin-inline-end: 10px;
     border: 1px solid var(--gray-txt);
     width: 40px;
     height: 40px;
@@ -755,7 +761,7 @@ nav button:hover {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    margin-right: 10px;
+    margin-inline-end: 10px;
 }
 
 .last-news .container .box h5 {
@@ -872,6 +878,7 @@ nav button:hover {
 }
 
 .footer .container .box input {
+    width: 100%;
     padding: 10px;
     border: 1px solid var(--gray-txt);
     outline: none;
@@ -883,10 +890,14 @@ nav button:hover {
     margin-bottom: 20px;
 }
 
+.footer .container .box .icons {
+    width: 100%;
+}
+
 .footer .container .box .icons i {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
     text-align: center;
     color: var(--gray-txt);
     border-radius: 50%;
@@ -900,12 +911,12 @@ nav button:hover {
     -moz-transition: .1s linear;
     -ms-transition: .1s linear;
     -o-transition: .1s linear;
-    margin-right: 12px;
+    margin-inline-end: 12px;
     cursor: pointer;
 }
 
 .footer .container .box .icons i:hover {
-    background-color: var(--gray-txt);
+    background-color: var(--main-txt);
     color: #fff;
 }
 
@@ -1093,10 +1104,6 @@ nav button:hover {
         width: calc(100% - 40px);
     }
 
-    .footer .container .box input {
-        width: 100%
-    }
-
     .end .container {
         justify-content: center;
     }
@@ -1108,10 +1115,17 @@ nav button:hover {
 
 @media (max-width: 500px) {
     nav h3 {
-        margin-right: 50px;
+        margin-inline-end: 50px;
     }
 
     nav ul {
         flex-basis: initial;
+    }
+
+    .footer .container .box .icons i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
     }
 }

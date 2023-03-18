@@ -10,14 +10,14 @@ body {
     margin-left: 20px;
 }
 
-.team-2>div div:first-child {
-    text-align: left;
-}
-
 .last-news .container .box img {
     margin-left: 10px;
 }
 
 .form .left div i {
     margin-left: 10px;
+}
+
+.team-2>div div:first-child {
+    text-align: left;
 }
